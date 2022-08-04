@@ -38,6 +38,7 @@ entradaDados.question('Digite o primeiro numero: \n', function (valor1){
                 console.log('O resultado é: ' + resultado);
             }
             
+            entradaDados.close()
        });
     });
  });
